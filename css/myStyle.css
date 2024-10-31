@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&family=Tilt+Neon&display=swap');
+
+ p{
+    color: #dbf1fa;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+  h2{
+    color: #dbf1fa;
+    background-color: #046172;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+      text-align: center;
+  }
+
+h1{
+    font-family: "Sixtyfour Convergence";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+}
+
+header{
+    background-color: #08b6b6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #046172;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+  }
+  nav li{
+    float: left;
+  }
+  nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover {
+    background-color: rgb(2, 78, 83);
+  }
+  body{
+    background-color: rgb(10, 129, 150);
+  }
+  footer{
+    background-color: rgb(2, 78, 83);
+  }
+  section{
+    margin: 25px;
+  }
