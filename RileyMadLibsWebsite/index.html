@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
+
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<header>
+    <h2>Riley's Madlibs!</h2>
+    <p>Fill this out <b>NOW</b> </p>
+</header>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="row m-4 p-2">
+                <div class="col-sm-6 mx-auto">
+
+
+                    <form action="javascript:write();">
+                        <div class="form-group">
+                            <label for="Name">Main Name:</label>
+                            <input type="text" class="form-control" id="Name">
+                            <div class="form-group">
+                                <label for="Person">Name 2:</label>
+                                <input type="text" class="form-control" id="Person">
+                                <div class="form-group">
+                                    <label for="Adjective1">Adjective1:</label>
+                                    <input type="text" class="form-control" id="Adjective1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Adjective2">Adjective2:</label>
+                                    <input type="text" class="form-control" id="Adjective2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Adjective3">Adjective3:</label>
+                                    <input type="text" class="form-control" id="Adjective3">
+                                <div class="form-group">
+                                    <label for="Adjective4">Adjective4:</label>
+                                    <input type="text" class="form-control" id="Adjective4">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Noun1">Noun Plural:</label>
+                                    <input type="type" class="form-control" id="Noun1">
+
+                                        <div class="form-group">
+                                            <label for="Bodypart">Bodypart:</label>
+                                            <input type="type" class="form-control" id="Bodypart">
+                                            <div class="form-group">
+                                                <label for="Verb1">Verb:</label>
+                                                <input type="type" class="form-control" id="Verb1">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="Verb2">Verb2:</label>
+                                                <input type="type" class="form-control" id="Verb2">
+                                            </div>
+                                            <!-- radial v -->
+                                            <div class="form-group">
+                                                <p>Noun Furniture:</p>
+                                                <label class="form-check-label" for="Table">
+                                                    <input type="radio" class="form-check-input" name="NounFurniture"
+                                                        value="Table" id="Table"> Table </label>
+                                            </div>
+                                            <div class="form-group">
+
+                                                <label class="form-check-label" for="Chair">
+                                                    <input type="radio" class="form-check-input" name="NounFurniture"
+                                                        value="Chair" id="Chair"> Chair </label>
+                                            </div>
+                                            <div class="form-group">
+
+                                                <label class="form-check-label" for="Desk">
+                                                    <input type="radio" class="form-check-input" name="NounFurniture"
+                                                        value="Desk" id="Desk"> Desk </label>
+                                            </div>
+                                            <div class="form-group">
+
+                                                <label class="form-check-label" for="Bed">
+                                                    <input type="radio" class="form-check-input" name="NounFurniture"
+                                                        value="Bed" id="Bed">
+                                                    Bed </label>
+                                            </div>
+                                            <button type="submit"
+                                                class="btn btn-block btn-outline-danger">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <h1> Your Madlibs Here!!</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 p-5" id="output"></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- <p class="MadLib"> (Name) heard a shot ring out and saw (Person) fall over. not dead though. (Name) could tell from the (adjective) (adjective) scream that getting shot in the (body part) does to someone. So (Name) used this moment to (verb)! obviously they had a plan! they would just.... um... wait.... They realized they were strapped down to the (Noun Furniture).... so they just kinda.... (verb) there........................................... They thought of (Noun)... were they (Adjective)? They had heard about tales but wasnt sure if they were true......... they thought on it.. and realized they liked to imagine they were. even if they were a bit (Noun). </p> -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>
